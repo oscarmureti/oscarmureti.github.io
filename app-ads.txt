@@ -1,0 +1,15 @@
+# app-ads.txt
+#
+# Host this at https://YOUR-DOMAIN/app-ads.txt - it must be at the domain root.
+# Then set that same domain as the developer website on BOTH store listings;
+# crawlers find this file by following the store listing, so it does nothing
+# until the listing points at the domain.
+#
+# Replace pub-3312197833830273 with your own AdMob publisher id (AdMob ->
+# Settings -> Account information). Several demand partners will not bid
+# without this file, so it is worth doing before launch rather than after.
+
+google.com, pub-3312197833830273, DIRECT, f08c47fec0942fa0
+
+# When you add mediation partners, add their lines here too. Each network
+# publishes the exact line to use in its own dashboard - do not guess them.
