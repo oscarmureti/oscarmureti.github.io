@@ -3,285 +3,405 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Oscar Mureti &middot; Mobile Developer</title>
-<meta name="description" content="Mobile developer building Android and iOS applications with Flutter. Puzzle games, fintech, health and e-commerce apps.">
+
+<title>Oscar Mureti &middot; Software Developer &mdash; Mobile, Web, AI &amp; ML</title>
+<meta name="description" content="Oscar Mureti is a software developer in Nairobi, Kenya, building mobile apps with Flutter, web systems with React and PHP, and AI/ML solutions in Python. Seven years shipping production software across fintech, health and e-commerce.">
+<meta name="author" content="Oscar Mureti">
+<meta name="keywords" content="Oscar Mureti, software developer Kenya, Flutter developer, mobile developer Nairobi, React developer, machine learning, AI developer Kenya, Android developer, iOS developer">
+<link rel="canonical" href="https://oscarmureti.github.io/">
+
+<!-- Open Graph / Twitter: what LinkedIn, WhatsApp and Slack show when the
+     link is shared. Without these a shared link is a bare URL. -->
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Oscar Mureti">
+<meta property="og:title" content="Oscar Mureti &middot; Software Developer">
+<meta property="og:description" content="Mobile, web and AI/ML developer in Nairobi. Flutter, React, Python, Firebase.">
+<meta property="og:url" content="https://oscarmureti.github.io/">
+<meta property="og:image" content="https://oscarmureti.github.io/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="profile:first_name" content="Oscar">
+<meta property="profile:last_name" content="Mureti">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Oscar Mureti &middot; Software Developer">
+<meta name="twitter:description" content="Mobile, web and AI/ML developer in Nairobi. Flutter, React, Python, Firebase.">
+<meta name="twitter:image" content="https://oscarmureti.github.io/assets/og-image.png">
+
+<meta name="theme-color" content="#1f7a4d">
+<link rel="icon" href="assets/avatar.png">
+<link rel="apple-touch-icon" href="assets/avatar.png">
 <link rel="stylesheet" href="style.css">
+
+<!-- Structured data. Search engines use it for rich results; modern CV and
+     applicant-tracking parsers read schema.org Person for name, role,
+     employers, education and skills rather than scraping prose. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Oscar Mureti",
+  "givenName": "Oscar",
+  "familyName": "Mureti",
+  "jobTitle": "Software Developer",
+  "description": "Software developer working across mobile, web and AI/ML. Seven years shipping production applications in fintech, public health and e-commerce.",
+  "url": "https://oscarmureti.github.io/",
+  "image": "https://oscarmureti.github.io/assets/avatar.png",
+  "email": "mailto:oscarmureti75@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Nairobi",
+    "addressRegion": "Nairobi",
+    "addressCountry": "KE"
+  },
+  "nationality": { "@type": "Country", "name": "Kenya" },
+  "sameAs": [
+    "https://github.com/oscarmureti",
+    "https://oscarmureti.cryosoft.co.ke/#/"
+  ],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Maseno University",
+    "description": "BSc Mathematics and Computer Science, 2016-2020"
+  },
+  "worksFor": [
+    { "@type": "Organization", "name": "Nobuk Africa" },
+    { "@type": "Organization", "name": "Bright Coders Factory East Africa" },
+    { "@type": "Organization", "name": "Cryosoft Corporation" }
+  ],
+  "knowsAbout": [
+    "Flutter", "Dart", "Android development", "iOS development",
+    "React", "React Native", "JavaScript", "PHP", "MySQL",
+    "Python", "Machine learning", "Artificial intelligence",
+    "Firebase", "REST APIs", "DHIS2", "Mobile application development",
+    "Web development"
+  ],
+  "knowsLanguage": [
+    { "@type": "Language", "name": "English" },
+    { "@type": "Language", "name": "Swahili" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Applications by Oscar Mureti",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "item": {
+        "@type": "MobileApplication", "name": "DairyVibes",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Android",
+        "description": "Smart dairy farm management - track milk, herd, health and feeds.",
+        "url": "https://play.google.com/store/apps/details?id=com.dairyvibes.app",
+        "author": { "@type": "Person", "name": "Oscar Mureti" } } },
+    { "@type": "ListItem", "position": 2, "item": {
+        "@type": "MobileApplication", "name": "Wordroot",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Android, iOS",
+        "description": "Word puzzle game with 1,284 generated crossword boards.",
+        "author": { "@type": "Person", "name": "Oscar Mureti" } } },
+    { "@type": "ListItem", "position": 3, "item": {
+        "@type": "MobileApplication", "name": "Solitaire Assured",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Android, iOS",
+        "description": "Klondike solitaire where every deal is solver-verified winnable.",
+        "author": { "@type": "Person", "name": "Oscar Mureti" } } },
+    { "@type": "ListItem", "position": 4, "item": {
+        "@type": "MobileApplication", "name": "Sudoku Mentor",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Android, iOS",
+        "description": "Sudoku graded by required solving technique, with hints that name the technique.",
+        "author": { "@type": "Person", "name": "Oscar Mureti" } } }
+  ]
+}
+</script>
 </head>
 <body>
-<div class="wrap">
+
+<nav class="topbar" aria-label="Primary">
+  <div class="wrap">
+    <span class="brand">Oscar Mureti</span>
+    <a href="#games">Games</a>
+    <a href="#apps">Apps</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main class="wrap">
 
   <header class="hero">
-    <h1>Oscar Mureti</h1>
-    <p class="role">Mobile Developer &middot; Android &amp; iOS</p>
-    <p class="tagline">I build Android and iOS applications, mostly in Flutter.
-      Seven years of shipping production apps across fintech, public health,
-      e-commerce and, most recently, my own puzzle games.</p>
-    <p class="meta">Nairobi / Kisumu, Kenya &middot; BSc Mathematics &amp; Computer Science, Maseno University</p>
-    <nav>
-      <a href="#games">Games</a>
-      <a href="#apps">Apps</a>
-      <a href="#work">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <!-- ===================== GAMES ===================== -->
-  <section class="section" id="games">
-    <h2>Puzzle games</h2>
-    <p class="intro">Three games on a shared Flutter engine. No accounts, no
-      timers, and every one works fully offline.</p>
-
-    <div class="games">
-      <div class="game">
-        <img src="assets/wordroot.png" alt="Wordroot icon">
-        <div>
-          <h3>Wordroot</h3>
-          <p>Grow a crossword from a handful of letters. 1,284 handcrafted
-            boards, generated and verified ahead of release.</p>
-        </div>
-      </div>
-      <div class="game">
-        <img src="assets/solitaire_assured.png" alt="Solitaire Assured icon">
-        <div>
-          <h3>Solitaire Assured</h3>
-          <p>Klondike where every one of 4,023 deals was proven winnable by a
-            solver before it shipped. The hint runs that same solver.</p>
-        </div>
-      </div>
-      <div class="game">
-        <img src="assets/sudoku_mentor.png" alt="Sudoku Mentor icon">
-        <div>
-          <h3>Sudoku Mentor</h3>
-          <p>5,493 puzzles graded by the logic they actually require rather than
-            by clue count. Hints name the technique that applies.</p>
-        </div>
+    <div class="hero-grid">
+      <img class="avatar" src="assets/avatar.png"
+           alt="Portrait of Oscar Mureti" width="116" height="116">
+      <div>
+        <h1>Oscar Mureti</h1>
+        <p class="role">Software Developer &middot; Mobile, Web, AI &amp; ML</p>
+        <p class="tagline">Seven years building software that ships — Flutter
+          apps on both stores, web systems in React and PHP, and machine
+          learning work in Python. Fintech, public health, e-commerce, and
+          lately my own puzzle games.</p>
       </div>
     </div>
-    <p class="store-link"><a href="privacy.html">Privacy policy</a> &middot;
-      <a href="support.html">Support</a></p>
+    <div class="chips">
+      <span class="chip">Flutter</span><span class="chip">Dart</span>
+      <span class="chip">Python</span><span class="chip">Machine learning</span>
+      <span class="chip">React</span><span class="chip">Firebase</span>
+      <span class="chip">PHP</span><span class="chip">MySQL</span>
+    </div>
+    <div class="cta">
+      <a class="btn btn-primary" href="#contact">Get in touch</a>
+      <a class="btn btn-ghost" href="https://github.com/oscarmureti">GitHub</a>
+    </div>
+    <p class="tagline" style="margin-top:18px">Nairobi, Kenya &middot;
+      BSc Mathematics &amp; Computer Science, Maseno University</p>
+  </header>
+
+  <section id="games">
+    <h2>Puzzle games</h2>
+    <p class="intro">Three games on one shared Flutter engine. No accounts, no
+      timers, fully offline.</p>
+    <div class="cards">
+      <article class="card app">
+        <img src="assets/wordroot.png" alt="Wordroot app icon" width="62" height="62">
+        <div>
+          <h3>Wordroot</h3>
+          <p>Grow a crossword from a handful of letters. 1,284 boards, generated
+            and verified before release.</p>
+          <div class="tags"><span class="tag">Flutter</span><span class="tag">Dart</span></div>
+        </div>
+      </article>
+      <article class="card app">
+        <img src="assets/solitaire_assured.png" alt="Solitaire Assured app icon" width="62" height="62">
+        <div>
+          <h3>Solitaire Assured</h3>
+          <p>Klondike where all 4,023 deals were proven winnable by a solver
+            before shipping. The hint runs that same solver.</p>
+          <div class="tags"><span class="tag">Flutter</span><span class="tag">Algorithms</span></div>
+        </div>
+      </article>
+      <article class="card app">
+        <img src="assets/sudoku_mentor.png" alt="Sudoku Mentor app icon" width="62" height="62">
+        <div>
+          <h3>Sudoku Mentor</h3>
+          <p>5,493 puzzles graded by the logic they require rather than by clue
+            count. Hints name the technique that applies.</p>
+          <div class="tags"><span class="tag">Flutter</span><span class="tag">Constraint solving</span></div>
+        </div>
+      </article>
+    </div>
   </section>
 
-
-  <!-- ===================== APPS ===================== -->
-  <section class="section" id="apps">
+  <section id="apps">
     <h2>Apps</h2>
-    <p class="intro">Products I have built and shipped outside the games.</p>
-
-    <div class="games">
-      <div class="game">
-        <img src="assets/dairyvibes.png" alt="DairyVibes icon">
+    <p class="intro">Products built and shipped outside the games.</p>
+    <div class="cards">
+      <article class="card app">
+        <img src="assets/dairyvibes.png" alt="DairyVibes app icon" width="62" height="62">
         <div>
           <h3>DairyVibes</h3>
-          <p>Smart dairy farm management &mdash; track milk, herd, health and
-            feeds. Available on Google Play.</p>
-          <p class="store-link"><a href="https://play.google.com/store/apps/details?id=com.dairyvibes.app">Google Play</a></p>
+          <p>Smart dairy farm management — track milk, herd, health and feeds.</p>
+          <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span></div>
+          <p><a href="https://play.google.com/store/apps/details?id=com.dairyvibes.app">Google Play &rarr;</a></p>
         </div>
-      </div>
-      <div class="game">
-        <img src="assets/taifachat.png" alt="TaifaChat icon">
+      </article>
+      <article class="card app">
+        <img src="assets/taifachat.png" alt="TaifaChat app icon" width="62" height="62">
         <div>
           <h3>TaifaChat</h3>
           <p>Messaging application for iOS and Android. In development.</p>
+          <div class="tags"><span class="tag">Flutter</span></div>
         </div>
-      </div>
+      </article>
     </div>
   </section>
 
-  <!-- ===================== EXPERIENCE ===================== -->
-  <section class="section" id="work">
+  <section id="experience">
     <h2>Experience</h2>
-    <div class="timeline">
-      <div class="item">
-        <div class="role-row">
-          <h3>Mobile Developer (iOS &amp; Android) &middot; Nobuk Africa</h3>
-          <span class="when">May 2022 &ndash; present</span>
+    <div>
+      <article class="job">
+        <div class="job-head">
+          <h3>Mobile Developer <span class="org">&middot; Nobuk Africa</span></h3>
+          <time datetime="2022-05">May 2022 &ndash; present</time>
         </div>
         <p>Android and iOS development on a fintech product offering loans to
           small-scale businesses.</p>
-      </div>
-      <div class="item">
-        <div class="role-row">
-          <h3>Mobile Developer (iOS &amp; Android) &middot; Bright Coders Factory East Africa</h3>
-          <span class="when">Jan 2022 &ndash; present</span>
+      </article>
+      <article class="job">
+        <div class="job-head">
+          <h3>Mobile Developer <span class="org">&middot; Bright Coders Factory East Africa</span></h3>
+          <time datetime="2022-01">Jan 2022 &ndash; present</time>
         </div>
         <p>Android and iOS development on a fintech project.</p>
-      </div>
-      <div class="item">
-        <div class="role-row">
-          <h3>CRO / Mobile Developer &middot; Cryosoft Corporation</h3>
-          <span class="when">Sep 2018 &ndash; present</span>
+      </article>
+      <article class="job">
+        <div class="job-head">
+          <h3>CRO / Mobile Developer <span class="org">&middot; Cryosoft Corporation</span></h3>
+          <time datetime="2018-09">Sep 2018 &ndash; present</time>
         </div>
         <p>Development across most of the company's products: Liquid, CoolPam,
           Ride Yetu, Soi Pallets, Music Family, Muvi and the Kathanthatu
           Secondary School website.</p>
-      </div>
-      <div class="item">
-        <div class="role-row">
-          <h3>Software Developer &middot; Vihiga County Referral Hospital</h3>
-          <span class="when">Jan &ndash; Aug 2021</span>
+      </article>
+      <article class="job">
+        <div class="job-head">
+          <h3>Software Developer <span class="org">&middot; Vihiga County Referral Hospital</span></h3>
+          <time datetime="2021-01">Jan &ndash; Aug 2021</time>
         </div>
         <p>Built a Flutter application for tracking and monitoring diabetes and
           hypertension patients across Vihiga County.</p>
-      </div>
-      <div class="item">
-        <div class="role-row">
-          <h3>Software Developer &middot; Kisumu County Ministry of Health</h3>
-          <span class="when">Jun &ndash; Aug 2019</span>
+      </article>
+      <article class="job">
+        <div class="job-head">
+          <h3>Software Developer <span class="org">&middot; Kisumu County Ministry of Health</span></h3>
+          <time datetime="2019-06">Jun &ndash; Aug 2019</time>
         </div>
-        <p>Built Kisumu Youth, a platform for young people in the county to
-          share ideas and connect with mentors.</p>
-      </div>
-      <div class="item">
-        <div class="role-row">
-          <h3>DHIS2 Apps Developer &middot; HI4Kenya bootcamp</h3>
-          <span class="when">2018</span>
+        <p>Built Kisumu Youth, a platform for young people to share ideas and
+          connect with mentors.</p>
+      </article>
+      <article class="job">
+        <div class="job-head">
+          <h3>DHIS2 Apps Developer <span class="org">&middot; HI4Kenya bootcamp</span></h3>
+          <time datetime="2018">2018</time>
         </div>
         <p>Worked on Wajibika, a data-collection application storing into DHIS2.</p>
-      </div>
+      </article>
     </div>
   </section>
 
-  <!-- ===================== PROJECTS ===================== -->
-  <section class="section" id="projects">
+  <section id="projects">
     <h2>Selected projects</h2>
-    <div class="grid2">
-
-      <div class="item">
+    <div class="cards two">
+      <article class="card">
         <h3>Diabetes &amp; Hypertension Tracking</h3>
-        <p>Lets doctors monitor patients' health indicators, and reminds patients
-          to take their own readings and attend visits. Built for Vihiga County
-          under the HealthIT project, aimed at reducing complications from
-          untracked indicators.</p>
+        <p>Lets doctors monitor patients' health indicators and reminds patients
+          to take readings and attend visits. Built for Vihiga County under the
+          HealthIT project.</p>
         <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">PHP</span></div>
-      </div>
-
-      <div class="item">
+      </article>
+      <article class="card">
         <h3>CoolPam Management</h3>
-        <p>A water-management system with modules for each type of user: mobile
-          apps for Android and iOS, an admin website and an admin desktop app.</p>
-        <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">React.js</span><span class="tag">Leaflet</span></div>
-      </div>
-
-      <div class="item">
+        <p>Water-management system with modules per user type: Android and iOS
+          apps, an admin website and an admin desktop app.</p>
+        <div class="tags"><span class="tag">Flutter</span><span class="tag">React.js</span><span class="tag">Firebase</span><span class="tag">Leaflet</span></div>
+      </article>
+      <article class="card">
         <h3>Liquid</h3>
-        <p>Mobile e-commerce for food delivery in Juja, letting restaurants reach
-          people who cannot easily come to them, plus household commodities.</p>
-        <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">PHP</span><span class="tag">Google Maps</span></div>
-        <p class="store-link"><a href="https://play.google.com/store/apps/details?id=com.cryosoft.liquid_food">Google Play</a></p>
-      </div>
-
-      <div class="item">
+        <p>Food-delivery e-commerce in Juja, letting restaurants reach people who
+          cannot easily come to them.</p>
+        <div class="tags"><span class="tag">Flutter</span><span class="tag">PHP</span><span class="tag">Google Maps</span></div>
+        <p><a href="https://play.google.com/store/apps/details?id=com.cryosoft.liquid_food">Google Play &rarr;</a></p>
+      </article>
+      <article class="card">
         <h3>Liquid Staff</h3>
         <p>The operational side of Liquid: staff receive, process and deliver
-          orders, with summaries of their activity and revenue collected.</p>
-        <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">Google Maps</span></div>
-      </div>
-
-      <div class="item">
+          orders, with activity and revenue summaries.</p>
+        <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span></div>
+      </article>
+      <article class="card">
         <h3>Muvi</h3>
         <p>Used by Maseno University students to browse films and series, read
-          storylines, watch trailers and have titles delivered.</p>
+          storylines, watch trailers and order titles.</p>
         <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span></div>
-        <p class="store-link"><a href="https://play.google.com/store/apps/details?id=com.oscar.movies">Google Play</a></p>
-      </div>
-
-      <div class="item">
+        <p><a href="https://play.google.com/store/apps/details?id=com.oscar.movies">Google Play &rarr;</a></p>
+      </article>
+      <article class="card">
         <h3>Kisumu Youth</h3>
-        <p>A platform for young people in Kisumu County to find mentorship, share
-          ideas and advertise their businesses.</p>
+        <p>Mentorship and idea-sharing platform for young people in Kisumu
+          County.</p>
         <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span></div>
-        <p class="store-link"><a href="https://play.google.com/store/apps/details?id=ke.co.cryosoft.kisumu_youth.oscar">Google Play</a></p>
-      </div>
-
-      <div class="item">
+        <p><a href="https://play.google.com/store/apps/details?id=ke.co.cryosoft.kisumu_youth.oscar">Google Play &rarr;</a></p>
+      </article>
+      <article class="card">
+        <h3>Wajibika</h3>
+        <p>Data-collection tool used by the Ministry of Health, storing collected
+          data into DHIS2.</p>
+        <div class="tags"><span class="tag">React Native</span><span class="tag">DHIS2</span></div>
+      </article>
+      <article class="card">
         <h3>Soi Pallet Management</h3>
-        <p>Expense and revenue tracking for a small business, with receipts and
-          invoices stored in-app and shareable with clients. Built for Soi Design
-          Studio.</p>
+        <p>Expense and revenue tracking for a small business, with shareable
+          receipts and invoices.</p>
         <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span></div>
-      </div>
-
-      <div class="item">
+      </article>
+      <article class="card">
+        <h3>ForexIN</h3>
+        <p>Forex trade news and predictions, signalling when to open and close
+          positions.</p>
+        <div class="tags"><span class="tag">Flutter</span><span class="tag">PHP</span><span class="tag">REST API</span></div>
+      </article>
+      <article class="card">
         <h3>Music Family</h3>
         <p>An Android music player built around a clean interface.</p>
         <div class="tags"><span class="tag">Flutter</span></div>
-        <p class="store-link"><a href="https://play.google.com/store/apps/details?id=ke.co.cryosoft.family_music">Google Play</a></p>
-      </div>
-
-      <div class="item">
-        <h3>Wajibika</h3>
-        <p>A data-collection tool used by the Ministry of Health, storing
-          collected data into DHIS2.</p>
-        <div class="tags"><span class="tag">React Native</span><span class="tag">DHIS2</span></div>
-      </div>
-
-      <div class="item">
-        <h3>Ride Africa</h3>
-        <p>Car owners list vehicles for hire, giving people looking to rent a
-          wide choice in one place.</p>
-        <div class="tags"><span class="tag">Flutter</span><span class="tag">Firebase</span></div>
-      </div>
-
-      <div class="item">
-        <h3>ForexIN</h3>
-        <p>Forex trade news and predictions, telling users when to open and close
-          positions.</p>
-        <div class="tags"><span class="tag">Flutter</span><span class="tag">PHP</span><span class="tag">REST API</span></div>
-      </div>
-
-      <div class="item">
-        <h3>Kathanthatu Secondary School</h3>
-        <p>A school website covering information about the school and its
-          location.</p>
-        <div class="tags"><span class="tag">PHP</span><span class="tag">MySQL</span></div>
-      </div>
-
+        <p><a href="https://play.google.com/store/apps/details?id=ke.co.cryosoft.family_music">Google Play &rarr;</a></p>
+      </article>
     </div>
   </section>
 
-  <!-- ===================== SKILLS ===================== -->
-  <section class="section" id="skills">
+  <section id="skills">
     <h2>Skills</h2>
-    <h3>Mobile</h3>
-    <div class="skills">
-      <span>Flutter</span><span>Dart</span><span>Android</span><span>iOS</span>
-      <span>React Native</span><span>Desktop apps</span>
+    <div class="skillset">
+      <h3>Mobile</h3>
+      <div class="skills"><span>Flutter</span><span>Dart</span><span>Android</span>
+        <span>iOS</span><span>React Native</span></div>
     </div>
-    <h3>Backend &amp; data</h3>
-    <div class="skills">
-      <span>Firebase</span><span>PHP</span><span>MySQL</span>
-      <span>REST APIs</span><span>DHIS2</span>
+    <div class="skillset">
+      <h3>Web</h3>
+      <div class="skills"><span>React.js</span><span>JavaScript</span><span>PHP</span>
+        <span>Bootstrap</span><span>REST APIs</span></div>
     </div>
-    <h3>Also</h3>
-    <div class="skills">
-      <span>Java</span><span>React.js</span><span>Bootstrap</span>
-      <span>Google Maps</span><span>Leaflet</span>
-      <span>Deployment</span><span>PC building &amp; troubleshooting</span>
+    <div class="skillset">
+      <h3>AI &amp; machine learning</h3>
+      <div class="skills"><span>Python</span><span>Machine learning</span>
+        <span>Data analysis</span></div>
     </div>
-    <h3>Languages</h3>
-    <div class="skills"><span>English</span><span>Kiswahili</span></div>
+    <div class="skillset">
+      <h3>Data &amp; platform</h3>
+      <div class="skills"><span>Firebase</span><span>MySQL</span><span>DHIS2</span>
+        <span>Java</span><span>Deployment</span><span>Server management</span></div>
+    </div>
   </section>
 
-  <!-- ===================== CONTACT ===================== -->
-  <section class="section" id="contact">
+  <section id="education">
+    <h2>Education</h2>
+    <article class="job">
+      <div class="job-head">
+        <h3>BSc Mathematics &amp; Computer Science
+          <span class="org">&middot; Maseno University</span></h3>
+        <time datetime="2016/2020">2016 &ndash; 2020</time>
+      </div>
+    </article>
+  </section>
+
+  <section id="contact">
     <h2>Contact</h2>
-    <div class="card">
-      <p>Open to remote software development work.</p>
-      <p><strong>Work enquiries:</strong>
-        <a href="mailto:oscarmureti75@gmail.com">oscarmureti75@gmail.com</a></p>
-      <p><strong>App support:</strong>
-        <a href="mailto:oscarmureti8017@gmail.com">oscarmureti8017@gmail.com</a>
-        &middot; <a href="support.html">support page</a></p>
-      <p><strong>GitHub:</strong> <a href="https://github.com/oscarmureti">github.com/oscarmureti</a></p>
+    <p class="intro">Open to remote software development work.</p>
+    <div class="cards two">
+      <article class="card">
+        <h3>Work enquiries</h3>
+        <p><a href="mailto:oscarmureti75@gmail.com">oscarmureti75@gmail.com</a></p>
+      </article>
+      <article class="card">
+        <h3>App support</h3>
+        <p><a href="mailto:oscarmureti8017@gmail.com">oscarmureti8017@gmail.com</a>
+          &middot; <a href="support.html">support page</a></p>
+      </article>
     </div>
   </section>
 
-  <footer>
-    <p>Oscar Mureti &middot; <a href="privacy.html">Privacy policy</a> &middot;
-      <a href="support.html">Support</a></p>
-  </footer>
+</main>
 
-</div>
+<footer>
+  <div class="wrap">
+    <p>Oscar Mureti &middot; Nairobi, Kenya &middot;
+      <a href="https://github.com/oscarmureti">GitHub</a> &middot;
+      <a href="privacy.html">Privacy</a> &middot;
+      <a href="support.html">Support</a></p>
+  </div>
+</footer>
+
 </body>
 </html>
